@@ -1,455 +1,579 @@
 <!doctype html>
 <html lang="es">
-  <head> <!--Cabecera-->
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="icon" href="./img/logo.png">
-    <title>TecNM | Tecnologico Nacional de Mexico </title>
-  </head> 
+<head> <!--Cabecera-->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
-    <nav  class="nav p-2 justify-content-expand"  style="background-color: rgba(255, 255, 255, 0.658)(27, 57, 106);">
-      <a href="https://zacatecas.tecnm.mx" class="nav-link active" aria-current="page"><img src="img/SEP.png" alt="Sep" width="150" height="40"></a>
-      <a href="https://zacatecas.tecnm.mx" class="nav-link active" aria-current="page"><img src="img/logo2.png" alt="Inicio" width="150" height="80"></a>
-    </nav>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" href="./img/logo.png">
+  <title>TecNM | Tecnologico Nacional de Mexico </title>
+</head>
+
+<body>
+  <nav class="nav p-2 justify-content-expand" style="background-color: rgba(255, 255, 255, 0.658)(27, 57, 106);">
+    <a href="https://zacatecas.tecnm.mx" class="nav-link active" aria-current="page"><img src="img/SEP.png" alt="Sep"
+        width="150" height="40"></a>
+    <a href="https://zacatecas.tecnm.mx" class="nav-link active" aria-current="page"><img src="img/logo2.png"
+        alt="Inicio" width="150" height="80"></a>
+  </nav>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
-  
+
   <!--Inicio-->
-  
-  <nav class="nav p-3 justify-content-expand"  style="background-color: rgb(27, 57, 106);">
+
+  <nav class="nav p-3 justify-content-expand" style="background-color: rgb(27, 57, 106);">
     <nav class="navbar navbar-expand-md navbar-dark container">
       <a class="navbar-brand" href="#">
-          
+
       </a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-    </button>
+      </button>
 
-    <!--Inicio-->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:#1B396A ;">
+      <!--Inicio logo-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:#1B396A ;">
         <ul class="navbar-nav ml-auto mr-5">
-        <li class="nav-item active">
-            <a class="nav-link" href="index.html"aria-current="page"><img src="img/home.png" alt="Inicio" width="30" height="30"></a>
-        </li>
-      
-      <!--Conocenos-->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Conócenos</a>
-          <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-             <!-- Button trigger modal -->
-             <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Misión y Visión</button>
-             <li><button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#objetivos">Objetivos</button></li>
-           </ul>
-       </li>
-
-       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Estudiantes</a>
-        <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-            <li><a class="text-white dropdown-item" href="Admision.html">Admisión</a></li>
-            <li><a class="text-white dropdown-item" href="Permanencia.html">Permanencia</a></li>
-            <li><a class="text-white dropdown-item" href="TrasladoM.html">Traslado y movilidad de estudiantes</a></li>
-            <li><a class="text-white dropdown-item" href="RequistosOG.html">Requisitos para la obtención del grado</a></li>
-            <li><a class="text-white dropdown-item" href="ExamenGrado.html">Examen de grado</a></li>
-            <li><a class="text-white dropdown-item" href="ActoDeGrado.html">Acto para la obtención de grado</a></li>
-        </ul>
-    </li>
-
-    <!--Oferta Educativa-->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Oferta Educativa</a>
-      <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-          <li><a class="text-white dropdown-item" href="MSistemas.html">Maestría En Sistemas Computacionales</a></li>
-          <li><a class="text-white dropdown-item" href="MAdmi.html">Maestía En Administración</a></li>
-          <li><a class="text-white dropdown-item" href="MArqui.html">Maestría En Arquitectura</a></li>
-      </ul>
-  </li>
-
-     <!--Galeria-->
-    <ul class="navbar-nav ml-auto mr-5">
-      <li class="nav-item active">
-          <a class="nav-link" href="Galeria.html"aria-current="page">Galeria</a>
-      </li>
-     <!--Divulgacion-->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Divulgación</a>
-        <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-          <li><a class="text-white dropdown-item" href="https://conacyt.mx/">Conacyt</a></li>
-          <li><a class="text-white dropdown-item" href="Articulos.html">Productividad Académica</a></li>
-          </ul>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" aria-current="page"><img src="img/home.png" alt="Inicio" width="30"
+                height="30"></a>
           </li>
-           <!--Nucleo Academico-->
-     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Núcleo Académico</a>
-      <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-          <li><a class="text-white dropdown-item" href="PlantaD.html">Maestría En Sistemas Computacionales</a></li>
-          <li><a class="text-white dropdown-item" href="#">Maestría En Administración</a></li>
-          <li><a class="text-white dropdown-item" href="#">Maestría En Arquitectura</a></li>
-      </ul>
-  </li>
-          
-</nav>   
 
-       <!-- Modal De Mision y Vision -->
-       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-       <div class="modal-dialog">
-       <div class="modal-content">
-      <div class="modal-header">
-       <h1 class="modal-title fs-5" id="exampleModalLabel">Misión y Visión</h1>
-       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-     </div>
-     <div class="modal-body">
-       <h5 class="py-3">Misión</h5>
-       Formar personas de nivel licenciatura y posgrado que tengan una alta educación tecnológica, científica, cultural y humanística con un amplio sentido crítico, ético y creativo capaces de impulsar el desarrollo social de su entorno.
-       <h5 class="py-3">Visión</h5>
-       Llegar a ser una institución líder que satisfaga las demandas de educación e investigación tecnológica con un modelo educativo dinámico, pertinente y de calidad, con personal de excelencia, infraestructura eficiente y vinculación con los sectores público, privado y social de nuestro estado y del país, así como todos aquellos servicios de apoyo que requieren una formación integral de la comunidad tecnológica.
-     </div>
-     <div class="modal-footer">
-       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-     </div>
-   </div>
- </div>
-</div>
-<!-- Modal De Mision y Vision -->
- <!-- Modal De Objetivos -->
- <div class="modal fade" id="objetivos" tabindex="-1" aria-labelledby="objetivosLabel" aria-hidden="true">
-   <div class="modal-dialog">
-   <div class="modal-content">
-  <div class="modal-header">
-   <h1 class="modal-title fs-5" id="objetivosLabel">Estudios de Maestría con orientación profesional</h1>
-   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
- </div>
- <div class="modal-body">
-Los estudios de Maestría con orientación profesional se enfocan a ampliar los conocimientos en una disciplina, especialidad o campo, con el fin de desarrollar en el estudiante capacidades que le permitan la aplicación conocimiento científico y tecnológico con una visión innovadora, así como en la solución de problemas en el sector productivo y de servicios.</div>
-<div class="modal-header"></div>
-<h2 class="fs-5"> Objetivos</h2>
-<ul>
-      <li> Formar profesionales con una desarrollada capacidad para aplicar conocimiento científico y tecnológico en su espacio de trabajo.</li>
-      <li>Ampliar los conocimientos en una disciplina, especialidad o campo con el fin de desarrollar en el estudiante la capacidad para aplicar el conocimiento científico o técnico de manera innovadora.        </li>
-      <li>Actualizar a profesionales en áreas específicas, de modo que su conocimiento se amplíe y potencie para una aplicación óptima en la vida laboral práctica y en el desarrollo de la sociedad.        </li>
-      <li>Encauzar el desempeño profesional hacia una mayor comprensión de las necesidades del sector ocupacional, y alentar la participación eficiente.</li>
+          <!--Conocenos-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"> Conócenos</a>
+            <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Misión
+                y Visión</button>
+              <li><button type="button" class="btn text-white" data-bs-toggle="modal"
+                  data-bs-target="#objetivos">Objetivos</button></li>
+            </ul>
+          </li>
 
-    </ul>
+          <!--Oferta Educativa-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Oferta Educativa</a>
+            <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
+              <li><a class="text-white dropdown-item" href="MSistemas.html">Maestría En Sistemas Computacionales</a>
+              </li>
+              <li><a class="text-white dropdown-item" href="MAdmi.html">Maestía En Administración</a></li>
+              <li><a class="text-white dropdown-item" href="MArqui.html">Maestría En Arquitectura</a></li>
+            </ul>
+          </li>
+
+
+          <!--ESTUDIANTES-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Estudiantes</a>
+            <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
+              <li><a class="text-white dropdown-item" href="Admision.html">Admisión</a></li>
+              <li><a class="text-white dropdown-item" href="Permanencia.html">Permanencia</a></li>
+              <li><a class="text-white dropdown-item" href="TrasladoM.html">Traslado y movilidad de estudiantes</a></li>
+              <li><a class="text-white dropdown-item" href="RequistosOG.html">Requisitos para la obtención del grado</a>
+              </li>
+              <li><a class="text-white dropdown-item" href="ExamenGrado.html">Examen de grado</a></li>
+              <li><a class="text-white dropdown-item" href="ActoDeGrado.html">Acto para la obtención de grado</a></li>
+            </ul>
+          </li>
+
+          <!--Nucleo Academico-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Núcleo Académico</a>
+            <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
+              <li><a class="text-white dropdown-item" href="PlantaD.html">Maestría En Sistemas Computacionales</a>
+              </li>
+              <li><a class="text-white dropdown-item" href="#">Maestría En Administración</a></li>
+              <li><a class="text-white dropdown-item" href="#">Maestría En Arquitectura</a></li>
+            </ul>
+          </li>
+
+          <!--Divulgacion-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"> Divulgación</a>
+            <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
+              <li><a class="text-white dropdown-item" href="https://conacyt.mx/">Conacyt</a></li>
+              <li><a class="text-white dropdown-item" href="Articulos.html">Productividad Académica</a></li>
+            </ul>
+          </li>
+
+          <!--NORMATIVAS-->
+          <ul class="navbar-nav ml-auto mr-5 ">
+            <li class="nav-item active">
+              <a class="nav-link" href="Normativas.html" aria-current="page">Normativas</a>
+            </li>
+          </ul>
+
+          <!--Galeria-->
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="Galeria.html" aria-current="page">Galeria</a>
+            </li>
+
+    </nav>
+
+    <!-- Modal De Mision y Vision -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Misión y Visión</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5 class="py-3">Misión</h5>
+            Formar personas de nivel licenciatura y posgrado que tengan una alta educación tecnológica, científica,
+            cultural y humanística con un amplio sentido crítico, ético y creativo capaces de impulsar el desarrollo
+            social de su entorno.
+            <h5 class="py-3">Visión</h5>
+            Llegar a ser una institución líder que satisfaga las demandas de educación e investigación tecnológica con
+            un modelo educativo dinámico, pertinente y de calidad, con personal de excelencia, infraestructura eficiente
+            y vinculación con los sectores público, privado y social de nuestro estado y del país, así como todos
+            aquellos servicios de apoyo que requieren una formación integral de la comunidad tecnológica.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
     </div>
-<div class="modal-footer">
+    <!-- Modal De Mision y Vision -->
+    <!-- Modal De Objetivos -->
+    <div class="modal fade" id="objetivos" tabindex="-1" aria-labelledby="objetivosLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="objetivosLabel">Estudios de Maestría con orientación profesional</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Los estudios de Maestría con orientación profesional se enfocan a ampliar los conocimientos en una
+            disciplina, especialidad o campo, con el fin de desarrollar en el estudiante capacidades que le permitan la
+            aplicación conocimiento científico y tecnológico con una visión innovadora, así como en la solución de
+            problemas en el sector productivo y de servicios.</div>
+          <div class="modal-header"></div>
+          <h2 class="fs-5"> Objetivos</h2>
+          <ul>
+            <li> Formar profesionales con una desarrollada capacidad para aplicar conocimiento científico y tecnológico
+              en su espacio de trabajo.</li>
+            <li>Ampliar los conocimientos en una disciplina, especialidad o campo con el fin de desarrollar en el
+              estudiante la capacidad para aplicar el conocimiento científico o técnico de manera innovadora. </li>
+            <li>Actualizar a profesionales en áreas específicas, de modo que su conocimiento se amplíe y potencie para
+              una aplicación óptima en la vida laboral práctica y en el desarrollo de la sociedad. </li>
+            <li>Encauzar el desempeño profesional hacia una mayor comprensión de las necesidades del sector ocupacional,
+              y alentar la participación eficiente.</li>
 
-   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
- </div>
-</div>
-</div>
-</div>
-<!-- Modal De Mision y Vision -->
-        <!--Estudiantes-->
-       
-   <h1></h1>
-  </div>
+          </ul>
+        </div>
+        <div class="modal-footer">
+
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Modal De Mision y Vision -->
+    <!--Estudiantes-->
+
+    <h1></h1>
+    </div>
   </nav>
-   <h1></h1>
+  <h1></h1>
   </div>
 
-    <!-- CONTENIDO-->
-    <div class="container">
-        <h6 class="my-3 display-6">MAESTRÍA EN SISTEMAS COMPUTACIONALES</h6>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  CAMPO DE ORIENTACIÓN
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <ul class="list-unstyled">
-                        <h1 class="text-center my-3 display-5"></h1>
-                        <li>I. Programas con Orientación Profesional. Es un programa de estudios de posgrado de maestría que respondan a necesidades de los sectores de la sociedad y ser ampliamente justificados, además de cumplir con lo siguiente:
-                          <ul>
-                            <li>Proporcionar al estudiante una formación amplia y sólida en un campo de conocimiento con alta capacidad para el ejercicio profesional.</li>
-                            <li>Realizar estancias en los sectores de la sociedad (empresarial, social, gubernamental, entre otros).</li>
-                            <li>La duración de estas estancias estará enmarcada también en el plan de estudios y representar alrededor del 25% del tiempo total de la formación establecida en aquél; para una formación de dos años podrá pedirse una estancia de 6 meses.</li>
-                          </ul>
-                        </li>
-                      </ul>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                  INVESTIGACIÓN
-                </button>
-              </h2>
-              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  La investigación es una actividad sustantiva del quehacer del TecNM, la cual busca contribuir al desarrollo del entorno, por ello es de suma importancia estandarizar los criterios asociados.
-                    En este capítulo se abordan los aspectos más importantes que orientan al desarrollo de la investigación en el TecNM, para ello se describen objetivos, actividades y categorías de la investigación, posteriormente se analizan los criterios para valorar la pertinencia, mencionando los objetivos y las diferentes etapas para realizar la vinculación con los sectores productivos y sociales, finalmente se analizan algunos tipos de colaboración y/o de movilidad académica que permitan reforzar el desarrollo de la investigación.
-                  </div>
-            </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  INTRODUCCIÓN
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    El Instituto Tecnológico de Zacatecas, con el fin de atender la demanda generada en el sector industrial y de servicios ofrece la oportunidad de formar especialistas en el área de Ingeniería de Software, cursando el programa de Maestría en Sistemas Computacionales.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  MISIÓN
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    Formar profesionistas de excelencia en el área de sistemas computacionales a nivel posgrado capaces de resolver problemas aplicando el conocimiento en forma innovadora para satisfacer necesidades planteadas en los sectores público y privado con una sólida ética profesional.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingfor">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefor" aria-expanded="false" aria-controls="collapsefor">
-                    LÍNEA DE INVESTIGACIÓN
-                  </button>
-                </h2>
-                <div id="collapsefor" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    Ingeniería de Software enfocado al Desarrollo de aplicaciones Web y Movil                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingfive">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                    OBJETIVO GENERAL
-                  </button>
-                </h2>
-                <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    Formar profesionistas a nivel posgrado orientado al desarrollo de actividades académicas y profesional en el área de Sistemas Computacionales que integren habilidades para el desarrollo y aplicación de conocimientos técnico y científico utilizando tecnologías computacionales que den respuesta a las necesidades de las empresas locales, regionales y nacionales con apego a la ética profesional.                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSix">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    OBJETIVOS ESPECIFICOS DEL PROGRAMA
-                  </button>
-                </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <ul class="list-unstyled">
-                        <h1 class="text-center my-3 display-5"></h1>
-                          <ul>
-                            <li>Formar profesionistas capaces de aplicar conocimientos científicos y tecnológicos en el entorno laboral.</li>
-                            <li>Impulsar el desarrollo y generación de productos de investigación científica.</li>
-                            <li>Fortalecer el desarrollo de actividades académicas y profesionales en el área de sistemas computacionales.</li>
-                            <li>Participar en convocatorias emitidas por parte de CONACyT, PRODEP, PROSOFT y Gobiernos Federales, Estatales y Municipales que involucren al Instituto Tecnologico de Zacatecas en conjunto con empresas.</li>
-                            <li>Fomentar la transferencia de tecnología entre universidades e instituciones gubernamentales</li>
-                            <li>Actualizar profesionales en el área de sistemas computacionales a fin de aplicar sus conocimientos en el ámbito laboral con ética profesional.</li>
-                            <li>Encauzar el desempeño profesional hacia una mayor comprensión de las necesidades del sector productivo, y alentar su participación en el mismo.</li>
-                          </ul>
-                        </li>
-                      </ul>
-                </div>
-              </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSeven">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                PERFIL DE INGRESO
-              </button>
-            </h2>
-            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                Los estudiantes interesados en ingresar a la Maestría en Sistemas Computacionales, deberán contar con una licenciatura en las siguientes áreas del conocimiento: Sistemas Computacionales, Informática, Ingeniería en Tecnologías de la Información y las Comunicaciones, o áreas afines. Deberá conocer las herramientas básicas de sistemas computacionales, habilidades matemáticas e interés por la lectura. Además, el aspirante deberá trabajar en equipos multidisciplinarios, demostrando eficiencia en su desempeño personal de manera metodológica y disciplinada con adecuada expresión oral y escrita.
-                <ul class="list-unstyled">
-                    
-                    <h1 class="text-center my-3 display-5"></h1>
-                    <ul>Las habilidades que el candidato debe de reunir son:</ul>
-                    <h1 class="text-center my-3 display-5"></h1>
-                    <ul class="list-unstyled">Conocimentos Basicos</ul>
-                      <ul>
-                        <li>Matemáticas.</li>
-                        <li>Programación.</li>
-                        <li>Metodología de la investigación.</li>
-                        <li>Dominio de la lectura y comprensión de inglés técnico.</li>
-                      </ul>
-                        <h1 class="text-center my-3 display-5"></h1>
-                        <ul class="list-unstyled">Destrezas</ul>
-                          <ul>
-                            <li>Pensamiento lógico, analítico y crítico.</li>
-                            <li>Comunicación oral y escrita.</li>
-                            <li>Capacidad de integración.</li>
-                            <li>Trabajo multidisciplinario.</li>
-                            <li>Espíritu emprendedor.</li>
-                            <li>Apertura para la investigación aplicada y el desarrollo de tecnología.</li>
-                          </ul>
-                          <h1 class="text-center my-3 display-5"></h1>
-                        <ul class="list-unstyled">Actitudes y valores</ul>
-                          <ul>
-                            <li>Responsabilidad</li>
-                            <li>Ética</li>
-                            <li>Espíritu de superación.</li>
-                            <li>Respeto</li>
-                            <li>Honestidad</li>
-                            <li>Integridad</li>
-                            <li>Disponibilidad para realizar estancias en industrias o laboratorios de investigación especializados.</li>
-                        </ul>
+  <!-- CONTENIDO-->
+  <div class="container">
+    <h6 class="my-3 display-6">MAESTRÍA EN SISTEMAS COMPUTACIONALES</h6>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            CAMPO DE ORIENTACIÓN
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="list-unstyled">
+              <h1 class="text-center my-3 display-5"></h1>
+              <li>I. Programas con Orientación Profesional. Es un programa de estudios de posgrado de maestría que
+                respondan a necesidades de los sectores de la sociedad y ser ampliamente justificados, además de cumplir
+                con lo siguiente:
+                <ul>
+                  <li>Proporcionar al estudiante una formación amplia y sólida en un campo de conocimiento con alta
+                    capacidad para el ejercicio profesional.</li>
+                  <li>Realizar estancias en los sectores de la sociedad (empresarial, social, gubernamental, entre
+                    otros).</li>
+                  <li>La duración de estas estancias estará enmarcada también en el plan de estudios y representar
+                    alrededor del 25% del tiempo total de la formación establecida en aquél; para una formación de dos
+                    años podrá pedirse una estancia de 6 meses.</li>
                 </ul>
-            </div>
+              </li>
+            </ul>
           </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            INVESTIGACIÓN
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            La investigación es una actividad sustantiva del quehacer del TecNM, la cual busca contribuir al desarrollo
+            del entorno, por ello es de suma importancia estandarizar los criterios asociados.
+            En este capítulo se abordan los aspectos más importantes que orientan al desarrollo de la investigación en
+            el TecNM, para ello se describen objetivos, actividades y categorías de la investigación, posteriormente se
+            analizan los criterios para valorar la pertinencia, mencionando los objetivos y las diferentes etapas para
+            realizar la vinculación con los sectores productivos y sociales, finalmente se analizan algunos tipos de
+            colaboración y/o de movilidad académica que permitan reforzar el desarrollo de la investigación.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            INTRODUCCIÓN
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            El Instituto Tecnológico de Zacatecas, con el fin de atender la demanda generada en el sector industrial y
+            de servicios ofrece la oportunidad de formar especialistas en el área de Ingeniería de Software, cursando el
+            programa de Maestría en Sistemas Computacionales.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            MISIÓN
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Formar profesionistas de excelencia en el área de sistemas computacionales a nivel posgrado capaces de
+            resolver problemas aplicando el conocimiento en forma innovadora para satisfacer necesidades planteadas en
+            los sectores público y privado con una sólida ética profesional.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingfor">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsefor" aria-expanded="false" aria-controls="collapsefor">
+            LÍNEA DE INVESTIGACIÓN
+          </button>
+        </h2>
+        <div id="collapsefor" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Ingeniería de Software enfocado al Desarrollo de aplicaciones Web y Movil </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingfive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+            OBJETIVO GENERAL
+          </button>
+        </h2>
+        <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Formar profesionistas a nivel posgrado orientado al desarrollo de actividades académicas y profesional en el
+            área de Sistemas Computacionales que integren habilidades para el desarrollo y aplicación de conocimientos
+            técnico y científico utilizando tecnologías computacionales que den respuesta a las necesidades de las
+            empresas locales, regionales y nacionales con apego a la ética profesional. </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            OBJETIVOS ESPECIFICOS DEL PROGRAMA
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul class="list-unstyled">
+              <h1 class="text-center my-3 display-5"></h1>
+              <ul>
+                <li>Formar profesionistas capaces de aplicar conocimientos científicos y tecnológicos en el entorno
+                  laboral.</li>
+                <li>Impulsar el desarrollo y generación de productos de investigación científica.</li>
+                <li>Fortalecer el desarrollo de actividades académicas y profesionales en el área de sistemas
+                  computacionales.</li>
+                <li>Participar en convocatorias emitidas por parte de CONACyT, PRODEP, PROSOFT y Gobiernos Federales,
+                  Estatales y Municipales que involucren al Instituto Tecnologico de Zacatecas en conjunto con empresas.
+                </li>
+                <li>Fomentar la transferencia de tecnología entre universidades e instituciones gubernamentales</li>
+                <li>Actualizar profesionales en el área de sistemas computacionales a fin de aplicar sus conocimientos
+                  en el ámbito laboral con ética profesional.</li>
+                <li>Encauzar el desempeño profesional hacia una mayor comprensión de las necesidades del sector
+                  productivo, y alentar su participación en el mismo.</li>
+              </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            PERFIL DE INGRESO
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Los estudiantes interesados en ingresar a la Maestría en Sistemas Computacionales, deberán contar con una
+            licenciatura en las siguientes áreas del conocimiento: Sistemas Computacionales, Informática, Ingeniería en
+            Tecnologías de la Información y las Comunicaciones, o áreas afines. Deberá conocer las herramientas básicas
+            de sistemas computacionales, habilidades matemáticas e interés por la lectura. Además, el aspirante deberá
+            trabajar en equipos multidisciplinarios, demostrando eficiencia en su desempeño personal de manera
+            metodológica y disciplinada con adecuada expresión oral y escrita.
+            <ul class="list-unstyled">
+
+              <h1 class="text-center my-3 display-5"></h1>
+              <ul>Las habilidades que el candidato debe de reunir son:</ul>
+              <h1 class="text-center my-3 display-5"></h1>
+              <ul class="list-unstyled">Conocimentos Basicos</ul>
+              <ul>
+                <li>Matemáticas.</li>
+                <li>Programación.</li>
+                <li>Metodología de la investigación.</li>
+                <li>Dominio de la lectura y comprensión de inglés técnico.</li>
+              </ul>
+              <h1 class="text-center my-3 display-5"></h1>
+              <ul class="list-unstyled">Destrezas</ul>
+              <ul>
+                <li>Pensamiento lógico, analítico y crítico.</li>
+                <li>Comunicación oral y escrita.</li>
+                <li>Capacidad de integración.</li>
+                <li>Trabajo multidisciplinario.</li>
+                <li>Espíritu emprendedor.</li>
+                <li>Apertura para la investigación aplicada y el desarrollo de tecnología.</li>
+              </ul>
+              <h1 class="text-center my-3 display-5"></h1>
+              <ul class="list-unstyled">Actitudes y valores</ul>
+              <ul>
+                <li>Responsabilidad</li>
+                <li>Ética</li>
+                <li>Espíritu de superación.</li>
+                <li>Respeto</li>
+                <li>Honestidad</li>
+                <li>Integridad</li>
+                <li>Disponibilidad para realizar estancias en industrias o laboratorios de investigación especializados.
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingUno">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUno" aria-expanded="false" aria-controls="collapseUno">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseUno" aria-expanded="false" aria-controls="collapseUno">
             PERFÍL DE EGRESO
           </button>
         </h2>
-        <div id="collapseUno" class="accordion-collapse collapse" aria-labelledby="headingUno" data-bs-parent="#accordionExample">
+        <div id="collapseUno" class="accordion-collapse collapse" aria-labelledby="headingUno"
+          data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            El egresado de la Maestría en Sistemas Computacionales contará con habilidades y destrezas requeridas para desarrollar e implementar soluciones innovadoras a problemas en el ámbito público y privado, local, estatal, nacional e internacional, aplicando técnicas computacionales con metodologías de vanguardia.
+            El egresado de la Maestría en Sistemas Computacionales contará con habilidades y destrezas requeridas para
+            desarrollar e implementar soluciones innovadoras a problemas en el ámbito público y privado, local, estatal,
+            nacional e internacional, aplicando técnicas computacionales con metodologías de vanguardia.
             <ul class="list-unstyled">
-                <h1 class="text-center my-3 display-5"></h1>
-                
-                <ul class="list-unstyled">Además, el egresado, será capaz de:</ul>
-                  <ul>
-                    <li>Solucionar problemas prácticos con el uso adecuado de tecnologías de cómputo.</li>
-                    <li>Contribuir en la competitividad de empresas mediante la aplicación adecuada y efectiva de las tecnologías de computación.</li>
-                    <li>Proponer alternativas de soluciones innovadoras dentro del contexto técnico y organizacional de la empresa.</li>
-                    <li>Formar, desarrollar y evaluar grupos de trabajo de alto desempeño.</li>
-                    <li>Proporcionar asesoría técnica a las instituciones para optimizar sus recursos de información.</li>
-                    <li>Actualizar conocimientos en el área de computación.</li>
-                    <li>Evaluar nuevas tecnologías de información con el objetivo de aplicarlas adecuadamente en el sector público y privado.</li>
-                    <li>Analizar, diseñar e implementar sistemas, servicios y aplicaciones que utilicen diversas técnicas de la Ingeniería de Software.</li>
-                    <li>Desarrollar capacidades en la toma de decisiones, trabajo en equipo, apertura al cambio con un alto sentido de ética profesional.</li>
-                  </ul>
-                </li>
+              <h1 class="text-center my-3 display-5"></h1>
+
+              <ul class="list-unstyled">Además, el egresado, será capaz de:</ul>
+              <ul>
+                <li>Solucionar problemas prácticos con el uso adecuado de tecnologías de cómputo.</li>
+                <li>Contribuir en la competitividad de empresas mediante la aplicación adecuada y efectiva de las
+                  tecnologías de computación.</li>
+                <li>Proponer alternativas de soluciones innovadoras dentro del contexto técnico y organizacional de la
+                  empresa.</li>
+                <li>Formar, desarrollar y evaluar grupos de trabajo de alto desempeño.</li>
+                <li>Proporcionar asesoría técnica a las instituciones para optimizar sus recursos de información.</li>
+                <li>Actualizar conocimientos en el área de computación.</li>
+                <li>Evaluar nuevas tecnologías de información con el objetivo de aplicarlas adecuadamente en el sector
+                  público y privado.</li>
+                <li>Analizar, diseñar e implementar sistemas, servicios y aplicaciones que utilicen diversas técnicas de
+                  la Ingeniería de Software.</li>
+                <li>Desarrollar capacidades en la toma de decisiones, trabajo en equipo, apertura al cambio con un alto
+                  sentido de ética profesional.</li>
               </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingDos">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDos" aria-expanded="false" aria-controls="collapseDos">
-        REQUISITOS DE ADMISIÓN
-      </button>
-    </h2>
-    <div id="collapseDos" class="accordion-collapse collapse" aria-labelledby="headingDos" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Los aspirantes a ingresar a la Maestría en Sistemas Computacionales serán evaluados por el Consejo Académico de la Maestría en Sistemas computacionales, y deberán cumplir con los siguientes requisitos:
-        <ul class="list-unstyled">
-            <h1 class="text-center my-3 display-5"></h1>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDos">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseDos" aria-expanded="false" aria-controls="collapseDos">
+            REQUISITOS DE ADMISIÓN
+          </button>
+        </h2>
+        <div id="collapseDos" class="accordion-collapse collapse" aria-labelledby="headingDos"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Los aspirantes a ingresar a la Maestría en Sistemas Computacionales serán evaluados por el Consejo Académico
+            de la Maestría en Sistemas computacionales, y deberán cumplir con los siguientes requisitos:
+            <ul class="list-unstyled">
+              <h1 class="text-center my-3 display-5"></h1>
               <ul>
-               <li>Ser titulado de una licenciatura afín al programa.</li>
-               <li>Tener un promedio mínimo de ochenta (80) o su equivalente en el nivel licenciatura.</li>
-               <li>Aprobar el examen de admisión o cursar y aprobar las asignaturas propedéuticas con una calificación mínima de 80, las cuales no tienen un valor en créditos.</li>
-               <li>Demostrar habilidades a través del examen EXANI III de Ceneval y obtener un mínimo de 1000 puntos.</li>
-               <li>Presentar currículum vitae con los documentos probatorios de su trayectoria.</li>
-               <li>Entregar dos cartas de recomendación académica, dirigidas al jefe de la División de Estudios de Posgrado e Investigación, avaladas por especialistas en el área.</li>
-               <li>Cumplir con la entrevista ante el Comité de Admisión.</li>
-               <li>Mostrar habilidades para la lectura y comprensión de escritos técnicos en idioma inglés, presentando el examen de inglés (TOEFL) y obteniendo el puntaje requerido de 400 puntos como mínimo.</li>
+                <li>Ser titulado de una licenciatura afín al programa.</li>
+                <li>Tener un promedio mínimo de ochenta (80) o su equivalente en el nivel licenciatura.</li>
+                <li>Aprobar el examen de admisión o cursar y aprobar las asignaturas propedéuticas con una calificación
+                  mínima de 80, las cuales no tienen un valor en créditos.</li>
+                <li>Demostrar habilidades a través del examen EXANI III de Ceneval y obtener un mínimo de 1000 puntos.
+                </li>
+                <li>Presentar currículum vitae con los documentos probatorios de su trayectoria.</li>
+                <li>Entregar dos cartas de recomendación académica, dirigidas al jefe de la División de Estudios de
+                  Posgrado e Investigación, avaladas por especialistas en el área.</li>
+                <li>Cumplir con la entrevista ante el Comité de Admisión.</li>
+                <li>Mostrar habilidades para la lectura y comprensión de escritos técnicos en idioma inglés, presentando
+                  el examen de inglés (TOEFL) y obteniendo el puntaje requerido de 400 puntos como mínimo.</li>
               </ul>
-                <h1 class="text-center my-3 display-5"></h1>
-                <ul class="list-unstyled">Los candidatos deberán entregar, para su admisión al programa, la siguiente documentación:</ul>
-                  <ul>
-                    <li>2 copias fotostáticas del título y cédula de licenciatura (o Acta de Examen Profesional).</li>
-                    <li>2 copias fotostáticas del certificado de calificaciones de licenciatura o constancia de terminación con o sin calificaciones.</li>
-                    <li>2 fotografías tamaño infantil (color o blanco y negro).</li>
-                    <li>2 copias fotostáticas del acta de nacimiento.</li>
-                    <li>2 copias del CURP.</li>
-                    <li>Currículum Vitae para el coordinador académico.</li>
-                    <li>Solicitud de Inscripción debidamente llenada</li>
-        </ul>
-        <h1 class="text-center my-3 display-5"></h1>
-        <div class="alert alert-warning" role="alert">
-            Los Documentos deberán ser presentados en físico y digital.
-          </div>
-          <h1 class="text-center my-3 display-5"></h1>
-    </div>
-  </div>
-</div>
-<div class="accordion-item">
-    <h2 class="accordion-header" id="headingTres">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
-        REQUISITOS PARA LA OBTENCIÓN DEL GRADO ACADÉMICO
-      </button>
-    </h2>
-    <div id="collapseTres" class="accordion-collapse collapse" aria-labelledby="headingTres" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Los estudiantes que deseen obtener el grado de Maestro en Sistemas Computacionales, deberán:        <ul class="list-unstyled">
-            <h1 class="text-center my-3 display-5"></h1>
+              <h1 class="text-center my-3 display-5"></h1>
+              <ul class="list-unstyled">Los candidatos deberán entregar, para su admisión al programa, la siguiente
+                documentación:</ul>
               <ul>
-                <li>Presentar y desarrollar un proyecto de estudio individual de carácter técnico, empresarial o docente para su tesis.</li>
-                <li>Contar con la autorización de impresión de la tesis emitida por el Jefe de la División de Estudios de Posgrado e Investigación, a propuesta del jurado del examen.</li>
-                <li>Demostrar el dominio de un segundo idioma, el cual deberá acreditar mediante examen TOEFL, con un puntaje de 450 puntos.</li>
-                <li>Acreditar todas las asignaturas y actividades académicas del programa de Maestría en Sistemas Computacionales, y presentar y aprobar el examen de grado correspondiente.</li>
-                <li>Presentar evidencia de: desarrollo tecnológico, registro de propiedad intelectual, desarrollo de software o prototipos, patentes y participación en eventos académicos.</li>
-                <li>Contar con al menos dos artículos publicados en congresos nacionales o internacionales y/o revistas indexadas arbitradas.</li>
+                <li>2 copias fotostáticas del título y cédula de licenciatura (o Acta de Examen Profesional).</li>
+                <li>2 copias fotostáticas del certificado de calificaciones de licenciatura o constancia de terminación
+                  con o sin calificaciones.</li>
+                <li>2 fotografías tamaño infantil (color o blanco y negro).</li>
+                <li>2 copias fotostáticas del acta de nacimiento.</li>
+                <li>2 copias del CURP.</li>
+                <li>Currículum Vitae para el coordinador académico.</li>
+                <li>Solicitud de Inscripción debidamente llenada</li>
+              </ul>
+              <h1 class="text-center my-3 display-5"></h1>
+              <div class="alert alert-warning" role="alert">
+                Los Documentos deberán ser presentados en físico y digital.
+              </div>
+              <h1 class="text-center my-3 display-5"></h1>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTres">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
+            REQUISITOS PARA LA OBTENCIÓN DEL GRADO ACADÉMICO
+          </button>
+        </h2>
+        <div id="collapseTres" class="accordion-collapse collapse" aria-labelledby="headingTres"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Los estudiantes que deseen obtener el grado de Maestro en Sistemas Computacionales, deberán: <ul
+              class="list-unstyled">
+              <h1 class="text-center my-3 display-5"></h1>
+              <ul>
+                <li>Presentar y desarrollar un proyecto de estudio individual de carácter técnico, empresarial o docente
+                  para su tesis.</li>
+                <li>Contar con la autorización de impresión de la tesis emitida por el Jefe de la División de Estudios
+                  de Posgrado e Investigación, a propuesta del jurado del examen.</li>
+                <li>Demostrar el dominio de un segundo idioma, el cual deberá acreditar mediante examen TOEFL, con un
+                  puntaje de 450 puntos.</li>
+                <li>Acreditar todas las asignaturas y actividades académicas del programa de Maestría en Sistemas
+                  Computacionales, y presentar y aprobar el examen de grado correspondiente.</li>
+                <li>Presentar evidencia de: desarrollo tecnológico, registro de propiedad intelectual, desarrollo de
+                  software o prototipos, patentes y participación en eventos académicos.</li>
+                <li>Contar con al menos dos artículos publicados en congresos nacionales o internacionales y/o revistas
+                  indexadas arbitradas.</li>
                 <li>Realización de estancia en el sector público, privado o social.</li>
               </ul>
-            </li>
-          </ul>
-          
-    </div>
-  </div>
-</div>
-<div class="accordion-item">
-    <h2 class="accordion-header" id="headingCuatro">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuatro">
-        TRÁMITE DE INGRESO
-      </button>
-    </h2>
-    <div id="collapseCuatro" class="accordion-collapse collapse" aria-labelledby="headingCuatro" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-              <ul>
-                <li>Elaborar y presentar ficha de ingreso (No tiene costo)</li>
-                <li>Presentar documentos establecidos dentro de los requisitos de ingreso</li>
-                <li>Realizar el pago de Inscripción del semestre $ 7,000.00</li>
-              </ul>
-            </li>
-          </ul>
-          
-    </div>
-  </div>
-</div>
-<h1 class="py-1"></h1>
-        
-        <h5>Materias a Cursar</h5>
-        <h1 class="text-center my-3 display-5"></h1>
-        <img src="img/CargaA.jpg" class="d-block w-100" alt="carga">
+              </li>
+            </ul>
 
-        <h1 class="py-2"></h1>
-        
-        <h1 class="py-2"></h1>
-        <div class="alert alert-info" role="alert">
-            Para mayores informes dirigirse a: Correo : msc@zacatecas.tecnm.mx, : posgrados@zacatecas.tecnm.mx;
           </div>
-          <h1 class="py-3"></h1>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingCuatro">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuatro">
+            TRÁMITE DE INGRESO
+          </button>
+        </h2>
+        <div id="collapseCuatro" class="accordion-collapse collapse" aria-labelledby="headingCuatro"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li>Elaborar y presentar ficha de ingreso (No tiene costo)</li>
+              <li>Presentar documentos establecidos dentro de los requisitos de ingreso</li>
+              <li>Realizar el pago de Inscripción del semestre $ 7,000.00</li>
+            </ul>
+            </li>
+            </ul>
 
-        
-        
+          </div>
+        </div>
+      </div>
+      <h1 class="py-1"></h1>
 
-      
+      <h5>Materias a Cursar</h5>
+      <h1 class="text-center my-3 display-5"></h1>
+      <img src="img/CargaA.jpg" class="d-block w-100" alt="carga">
 
-    </div><!-- CONTENIDO-->  
+      <h1 class="py-2"></h1>
 
-    
+      <h1 class="py-2"></h1>
+      <div class="alert alert-info" role="alert">
+        Para mayores informes dirigirse a: Correo : coord.msc@zacatecas.tecnm.mx, : posgrados@zacatecas.tecnm.mx;
+      </div>
+      <h1 class="py-3"></h1>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    </div><!-- CONTENIDO-->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
 
 </body>
+
 </html>
