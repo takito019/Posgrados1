@@ -14,12 +14,20 @@
 </head>
 
 <body>
-  <nav class="nav p-2 justify-content-expand" style="background-color: rgba(255, 255, 255, 0.658)(27, 57, 106);">
-    <a href="https://zacatecas.tecnm.mx" class="nav-link active" aria-current="page"><img src="img/SEP.png" alt="Sep"
-        width="150" height="40"></a>
-    <a href="https://zacatecas.tecnm.mx" class="nav-link active" aria-current="page"><img src="img/logo2.png"
-        alt="Inicio" width="150" height="80"></a>
-  </nav>
+  <div class="row">
+    <div class="col-xs-12 ">
+        <a href="https://zacatecas.tecnm.mx">
+            <img src="img/SEP.png" alt="Sep" width="200" height="60">
+        </a>
+        <a href="https://zacatecas.tecnm.mx">
+            <img src="img/logo2.png" alt="Inicio" width="150" height="80">
+        </a>
+        <a class="nav-link active rounded float-right" style="float: right; margin-right: 2%;">
+            <img src="img/LogoITZ.jpg" alt="LogoITZ" width="100">
+        </a>
+    </div>
+</div>
+
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,74 +62,123 @@
             <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
               <!-- Button trigger modal -->
               <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Misión
-                y Visión</button>
-              <li><button type="button" class="btn text-white" data-bs-toggle="modal"
-                  data-bs-target="#objetivos">Objetivos</button></li>
+                y Visión
+              </button>
+              <li>
+                <button type="button" class="btn text-white" data-bs-toggle="modal"
+                  data-bs-target="#objetivos">Objetivos
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn text-white" data-bs-toggle="modal"
+                  data-bs-target="#contactanos">Contáctanos
+                </button>
+              </li>
             </ul>
           </li>
 
-          <!--Oferta Educativa-->
+          <!--oferta educativa-->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">Oferta Educativa</a>
+            <!--FIN DEL MENU OFERTA EDUCATIVA-->
             <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-              <li><a class="text-white dropdown-item" href="MSistemas.html">Maestría En Sistemas Computacionales</a>
-              </li>
-              <li><a class="text-white dropdown-item" href="MAdmi.html">Maestía En Administración</a></li>
-              <li><a class="text-white dropdown-item" href="MArqui.html">Maestría En Arquitectura</a></li>
+              <!--MENU DE ISC-->
+              <div class=" nav-item dropend btn-group dropright">
+                <button type="button" class=" text-white btn dropdown-toggle btn-secondary " href="#" id="navbarDropdown"
+                  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+                  style="background-color: rgb(27, 57, 106);">Maestría En Sistemas Computacionales</button>
+                <u1 class="dropdown-menu " style="background-color: rgb(27, 57, 106);">
+                  <li><a class="text-white dropdown-item" href="Estudiantes.html">Estudiantes </a></li>
+                  <li><a class="text-white dropdown-item">Nucleo Academico</a></li>
+                  <li> <a class="text-white dropdown-item">Productividad Academica</a></li>
+                </u1>
+
+              </div>
+              <!--MENU DE ADMINISTRACION-->
+              <div class=" nav-item dropend btn-group dropright">
+                <button type="button" class=" text-white btn dropdown-toggle btn-secondary" href="#" id="navbarDropdown"
+                  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+                  style="background-color: rgb(27, 57, 106);">Maestría En Sistemas Computacionales</button>
+                <u1 class="dropdown-menu " style="background-color: rgb(27, 57, 106);">
+                  <li><a class="text-white dropdown-item" href="Estudiantes.html">Estudiantes </a></li>
+                  <li><a class="text-white dropdown-item">Nucleo Academico</a></li>
+                  <li> <a class="text-white dropdown-item">Productividad Academica</a></li>
+                </u1>
+
+              </div>
+              <!--MENU DE ARQUITECTURA-->
+              <div class=" nav-item dropend btn-group dropright">
+                <button type="button" class=" text-white btn dropdown-toggle btn-secondary" href="#" id="navbarDropdown"
+                  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+                  style="background-color: rgb(27, 57, 106);">Maestría En Sistemas Computacionales</button>
+                <u1 class="dropdown-menu " style="background-color: rgb(27, 57, 106);">
+                  <li><a class="text-white dropdown-item" href="Estudiantes.html">Estudiantes </a></li>
+                  <li><a class="text-white dropdown-item">Nucleo Academico</a></li>
+                  <li> <a class="text-white dropdown-item">Productividad Academica</a></li>
+                </u1>
+
+              </div>
+
+              <!--FIN DEL MENU DE ARQUITECTURA-->
             </ul>
           </li>
+        </ul>
+        </li>
 
-
-          <!--ESTUDIANTES-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Estudiantes</a>
-            <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-              <li><a class="text-white dropdown-item" href="Admision.html">Admisión</a></li>
-              <li><a class="text-white dropdown-item" href="Permanencia.html">Permanencia</a></li>
-              <li><a class="text-white dropdown-item" href="TrasladoM.html">Traslado y movilidad de estudiantes</a></li>
-              <li><a class="text-white dropdown-item" href="RequistosOG.html">Requisitos para la obtención del grado</a>
-              </li>
-              <li><a class="text-white dropdown-item" href="ExamenGrado.html">Examen de grado</a></li>
-              <li><a class="text-white dropdown-item" href="ActoDeGrado.html">Acto para la obtención de grado</a></li>
-            </ul>
-          </li>
-
-          <!--Nucleo Academico-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Núcleo Académico</a>
-            <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-              <li><a class="text-white dropdown-item" href="PlantaD.html">Maestría En Sistemas Computacionales</a>
-              </li>
-              <li><a class="text-white dropdown-item" href="#">Maestría En Administración</a></li>
-              <li><a class="text-white dropdown-item" href="#">Maestría En Arquitectura</a></li>
-            </ul>
-          </li>
-
-          <!--Divulgacion-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false"> Divulgación</a>
-            <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-              <li><a class="text-white dropdown-item" href="https://conacyt.mx/">Conacyt</a></li>
-              <li><a class="text-white dropdown-item" href="Articulos.html">Productividad Académica</a></li>
-            </ul>
-          </li>
-
-          <!--NORMATIVAS-->
-          <ul class="navbar-nav ml-auto mr-5 ">
-            <li class="nav-item active">
-              <a class="nav-link" href="Normativas.html" aria-current="page">Normativas</a>
+        <!--ESTUDIANTES
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Estudiantes</a>
+          <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
+            <li><a class="text-white dropdown-item" href="Admision.html">Admisión</a></li>
+            <li><a class="text-white dropdown-item" href="Permanencia.html">Permanencia</a></li>
+            <li><a class="text-white dropdown-item" href="TrasladoM.html">Traslado y movilidad de estudiantes</a></li>
+            <li><a class="text-white dropdown-item" href="RequistosOG.html">Requisitos para la obtención del grado</a>
             </li>
+            <li><a class="text-white dropdown-item" href="ExamenGrado.html">Examen de grado</a></li>
+            <li><a class="text-white dropdown-item" href="ActoDeGrado.html">Acto para la obtención de grado</a></li>
+            <li><a class="text-white dropdown-item" href="Matriculados.html">Alumnos Matriculados</a></li>
           </ul>
+        </li>
+        -->
 
-          <!--Galeria-->
-          <ul class="navbar-nav ml-auto mr-5">
-            <li class="nav-item active">
-              <a class="nav-link" href="Galeria.html" aria-current="page">Galeria</a>
+        <!--Nucleo Academico
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Núcleo Académico</a>
+          <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
+            <li><a class="text-white dropdown-item" href="PlantaD.html">Maestría En Sistemas Computacionales</a>
             </li>
+            <li><a class="text-white dropdown-item" href="#">Maestría En Administración</a></li>
+            <li><a class="text-white dropdown-item" href="#">Maestría En Arquitectura</a></li>
+          </ul>
+        </li>
+        -->
+
+        <!--Divulgacion
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> Divulgación</a>
+          <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
+            <li><a class="text-white dropdown-item" href="https://conacyt.mx/">Conacyt</a></li>
+            <li><a class="text-white dropdown-item" href="Articulos.html">Productividad Académica</a></li>
+          </ul>
+        </li>
+        -->
+
+        <!--NORMATIVAS-->
+        <ul class="navbar-nav ml-auto mr-5 ">
+          <li class="nav-item active">
+            <a class="nav-link" href="Normativas.html" aria-current="page">Normativas</a>
+          </li>
+        </ul>
+
+        <!--Galeria-->
+        <ul class="navbar-nav ml-auto mr-5">
+          <li class="nav-item active">
+            <a class="nav-link" href="Galeria.html" aria-current="page">Galeria</a>
+          </li>
 
     </nav>
 
