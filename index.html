@@ -9,215 +9,127 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
     <link rel="icon" href="./img/logo.png">
     <title>TecNM | Tecnologico Nacional de Mexico </title>
 </head>
 
 <body>
-
+    <!--LOGOS-->
     <div class="row">
         <div class="col-xs-12 ">
-            <a href="https://zacatecas.tecnm.mx">
+            <a href="https://zacatecas.tecnm.mx" style="padding-right: 5%;">
                 <img src="img/SEP.png" alt="Sep" width="200" height="60">
             </a>
             <a href="https://zacatecas.tecnm.mx">
-                <img src="img/logo2.png" alt="Inicio" width="150" height="80">
+                <img src="img/logo2.png" alt="Inicio" width="120" height="70">
             </a>
-            <a class="nav-link active rounded float-right" style="float: right; margin-right: 2%;">
-                <img src="img/LogoITZ.jpg" alt="LogoITZ" width="100">
+            <a class="nav-link active rounded float-right" style="float: right; padding-right: 2%;">
+                <img src="img/LogoITZ.jpg" alt="LogoITZ" width="50">
             </a>
         </div>
     </div>
+    <!--MENU-->
+    <div class="navbar navbar-expand-lg text-white"
+        style="background-color: rgb(27, 57, 106); height: 50px; padding-left: 30%; padding-right: 25%;">
 
+        <div class="container-fluid container">
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"> </span>
+            </button> <!--MENU HAMBURGUESA-->
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+            <div class=" collapse navbar-collapse" id="nav">
+                
+                <!--ICONO DE INICIO-->
+                <li class="navbar" style="padding-right: 3%;"></li>
+                <a class="nav-link" href="index.html" aria-current="page">
+                    <img src="img/home.png" alt="Inicio" width="30" height="30">
+                </a>
+                </li>
 
-    <!--Inicio-->
-    <div>
-        <div style="text-align: center;">
-            <nav class="nav p-3  justify-content-expand"
-                style="background-color: rgb(27, 57, 106); font-size:x-large; text-align: center;">
-                <nav class="navbar navbar-expand-md navbar-dark container" style="text-align: center;">
-                    <a class="navbar-brand" href="#">
-
-                    </a>
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!--Inicio logo-->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent"
-                        style="background-color:#1B396A ;">
-                        <ul class="navbar-nav ml-auto mr-5">
-                            <div>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html" aria-current="page">
-                                        <img src="img/home.png" alt="Inicio" width="45" height="45">
-                                    </a>
-                                </li>
-                            </div>
-
-                            <!--Conocenos-->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                    style="font-size: larger; margin-left: 2%;"> Conócenos</a>
-                                <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ; font-size:large;">
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn text-white" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
-                                        Misión
-                                        y Visión
-                                    </button>
-                                    <li>
-                                        <button type="button" class="btn text-white" data-bs-toggle="modal"
-                                            data-bs-target="#objetivos">
-                                            Objetivos
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button type="button" class="btn text-white" data-bs-toggle="modal"
-                                            data-bs-target="#contactanos">
-                                            Contáctanos
-                                        </button>
-                                    </li>
-                                </ul>
+                <ul class="navbar-nav">
+                    <li class=" navbar nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" style="font-size: larger;"> Conócenos</a>
+                        <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ; font-size:large;">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn text-white" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Misión
+                                y Visión
+                            </button>
+                            <li>
+                                <button type="button" class="btn text-white" data-bs-toggle="modal"
+                                    data-bs-target="#objetivos">
+                                    Objetivos
+                                </button>
                             </li>
-                            <li class="nav-item dr">
-                                <a> </a>
-                            </li>
-                            <!--oferta educativa-->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                    style="font-size:larger; margin-left: 2%;">Oferta Educativa</a>
-                                <!--FIN DEL MENU OFERTA EDUCATIVA-->
-                                <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;"
-                                    style="font-size: large;">
-                                    <!--MENU DE ISC-->
-                                    <div class=" nav-item dropend dropright">
-                                        <a type="button" class=" text-white dropdown-toggle btn-secondary " href="#"
-                                            id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true"
-                                            aria-expanded="true" style="background-color: rgb(27, 57, 106);">
-                                            Maestría En Sistemas Computacionales
-                                        </a>
-                                        <u1 class="dropdown-menu " style="background-color: rgb(27, 57, 106);">
-                                            <li><a class="text-white dropdown-item" href="MSistemas.html">Información
-                                                    General</a></li>
-                                            <li><a class="text-white dropdown-item" href="Estudiantes.html">Estudiantes
-                                                </a>
-                                            </li>
-                                            <li><a class="text-white dropdown-item" href="PlantaD.html">Nucleo
-                                                    Academico</a></li>
-                                            <li> <a class="text-white dropdown-item" href="ProductividadAcademica.html">Productividad Academica</a></li>
-                                        </u1>
-                                    </div>
-                                    <!--MENU DE ADMINISTRACION-->
-                                    <div class=" nav-item dropend dropright">
-                                        <a type="button" class=" text-white dropdown-toggle btn-secondary" href="#"
-                                            id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true"
-                                            aria-expanded="true" style="background-color: rgb(27, 57, 106);">
-                                            Maestría En Administración
-                                        </a>
-                                        <u1 class="dropdown-menu " style="background-color: rgb(27, 57, 106);">
-                                            <li><a class="text-white dropdown-item" href="MAdmi.html">Información
-                                                    General</a></li>
-                                            <li><a class="text-white dropdown-item" href="Estudiantes.html">Estudiantes
-                                                </a>
-                                            </li>
-                                            <li><a class="text-white dropdown-item" href="DocentesAdmi.html">Nucleo
-                                                    Academico</a></li>
-                                            <li> <a class="text-white dropdown-item" href="ProductividadAcademica.html">Productividad Academica</a></li>
-                                        </u1>
-                                    </div>
-                                    <!--MENU DE ARQUITECTURA-->
-                                    <div class=" nav-item dropend dropright">
-                                        <a type="button" class=" text-white dropdown-toggle btn-secondary" href="#"
-                                            id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true"
-                                            aria-expanded="true" style="background-color: rgb(27, 57, 106);">
-                                            Maestría En Arquitectura
-                                        </a>
-                                        <u1 class="dropdown-menu " style="background-color: rgb(27, 57, 106);">
-                                            <li><a class="text-white dropdown-item" href="MArqui.html">Información
-                                                    General</a></li>
-                                            <li><a class="text-white dropdown-item" href="Estudiantes.html">Estudiantes
-                                                </a>
-                                            </li>
-                                            <li><a class="text-white dropdown-item" href="DocentesArqui.html">Nucleo Academico</a></li>
-                                            <li> <a class="text-white dropdown-item" href="ProductividadAcademica.html">Productividad Academica</a></li>
-                                        </u1>
-
-                                    </div>
-
-                                    <!--FIN DEL MENU DE ARQUITECTURA-->
-                                </ul>
+                            <li>
+                                <button type="button" class="btn text-white" data-bs-toggle="modal"
+                                    data-bs-target="#contactanos">
+                                    Contáctanos
+                                </button>
                             </li>
                         </ul>
-                        </li>
-
-                        <!--ESTUDIANTES
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Estudiantes</a>
-                  <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-                    <li><a class="text-white dropdown-item" href="Admision.html">Admisión</a></li>
-                    <li><a class="text-white dropdown-item" href="Permanencia.html">Permanencia</a></li>
-                    <li><a class="text-white dropdown-item" href="TrasladoM.html">Traslado y movilidad de estudiantes</a></li>
-                    <li><a class="text-white dropdown-item" href="RequistosOG.html">Requisitos para la obtención del grado</a>
                     </li>
-                    <li><a class="text-white dropdown-item" href="ExamenGrado.html">Examen de grado</a></li>
-                    <li><a class="text-white dropdown-item" href="ActoDeGrado.html">Acto para la obtención de grado</a></li>
-                    <li><a class="text-white dropdown-item" href="Matriculados.html">Alumnos Matriculados</a></li>
-                  </ul>
-                </li>
-                -->
-                        <!--Nucleo Academico
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Núcleo Académico</a>
-                  <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-                    <li><a class="text-white dropdown-item" href="PlantaD.html">Maestría En Sistemas Computacionales</a>
-                    </li>
-                    <li><a class="text-white dropdown-item" href="#">Maestría En Administración</a></li>
-                    <li><a class="text-white dropdown-item" href="#">Maestría En Arquitectura</a></li>
-                  </ul>
-                </li>
-                -->
-                        <!--Divulgacion
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false"> Divulgación</a>
-                  <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ;">
-                    <li><a class="text-white dropdown-item" href="https://conacyt.mx/">Conacyt</a></li>
-                    <li><a class="text-white dropdown-item" href="Articulos.html">Productividad Académica</a></li>
-                  </ul>
-                </li>
-                -->
-                        <!--NORMATIVAS-->
-                        <ul class="navbar-nav ml-auto mr-5 " style="font-size:larger; padding-left: 0.5%;">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="Normativas.html" aria-current="page">Normativas</a>
+                </ul>
+                
+                <ul class="navbar-nav">
+                    <li class=" navbar nav-item dropdown " style="padding-right: 5%; ">
+                        <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown"
+                            style="font-size: larger; ">
+                            Oferta Educativa</a>
+                        <ul class="dropdown-menu " style="background-color: rgb(27, 57, 106) ;">
+                            <!--SUBMENU ISC-->
+                            <li><a href="#" class="dropdown-item text-white">Maestría en Ingeniería en Sistemas
+                                    Computacionales &raquo;</button>
+                                    <ul class="dropdown-menu submenu" style="background-color: rgb(27, 57, 106);">
+                                        <li><a href="MSistemas.html" class="dropdown-item text-white" >Información General</a></li>
+                                        <li><a href="Estudiantes.html" class="dropdown-item text-white">Estudiantes</a>
+                                        <li><a href="PlantaD.html" class="dropdown-item text-white">Núcleo Académico</a>
+                                        <li><a href="ProductividadAcademica.html" class="dropdown-item text-white">Productividad Académica</a>
+                                        </li>
+                                    </ul>
                             </li>
+
+                            <!--SUBMENU ADMINISTRACIÓN-->
+                            <li><a href="#" class="dropdown-item text-white">Maestría en Administración &raquo;</a>
+                                <ul class=" dropdown-menu submenu" style="background-color: rgb(27, 57, 106);">
+                                    <li><a href="MAdmi.html" class="dropdown-item text-white">Información General</a></li>
+                                    <li><a href="Estudiantes.html" class="dropdown-item text-white">Estudiantes</a>
+                                    <li><a href="DocentesAdmi.html" class="dropdown-item text-white">Núcleo Académico</a>
+                                    <li><a href="ProductividadAcademica.html" class="dropdown-item text-white">Productividad Académica</a></li>
+                                </ul>
+                            </li>
+
+                            <!--SUBMENU ARQUITECTURA-->
+                            <li><a href="#" class="dropdown-item text-white">Maestría en Arquitectura &raquo;</a>
+                                <ul class=" dropdown-menu submenu" style="background-color: rgb(27, 57, 106);">
+                                    <li><a href="MArqui.html" class="dropdown-item text-white">Información General</a></li>
+                                    <li><a href="Estudiantes.html" class="dropdown-item text-white">Estudiantes</a>
+                                    <li><a href="DocentesArqui.html" class="dropdown-item text-white">Núcleo Académico</a>
+                                    <li><a href="ProductividadAcademica.html" class="dropdown-item text-white">Productividad Académica</a></li>
+                                </ul>
+
+                            </li>
+
                         </ul>
+                    </li>
+                    <li class=" navbar nav-item" style="padding-right: 5%;"><a href="Normativas.html" class="nav-link text-white"
+                            style="font-size: larger; ">Normativas</a></li>
+                    <li class="navbar nav-item"><a href="Galeria.html" class="nav-link text-white"
+                            style="font-size: larger;">Galería</a>
+                    </li>
+                </ul>
+            </div>
 
-                        <!--Galeria-->
-                        <ul class="navbar-nav ml-auto mr-5" style="font-size: larger; margin-right: 0.5%;">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="Galeria.html" aria-current="page">Galería</a>
-                            </li>
-
-
-                </nav>
         </div>
-    </div>
-    
+
+    </div> <!--FIN DEL MENU-->
+
     <!-- Modal De Mision y Vision -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -249,13 +161,10 @@
                     aquellos servicios de apoyo que requieren una formación integral de la comunidad
                     tecnológica.
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
             </div>
         </div>
     </div>
-    <!-- Modal De Mision y Vision -->
+    <!-- Fin del Modal De Mision y Vision -->
     <!-- Modal De Objetivos -->
     <div class="modal fade" id="objetivos" tabindex="-1" aria-labelledby="objetivosLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -304,14 +213,11 @@
                         y alentar la participación eficiente.
                     </li>
                 </ul>
-                <div class="modal-footer">
-
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
             </div>
 
         </div>
     </div>
+    <!--Fin del Modal de Objetivos-->
 
     <!--MODAL DE CONTACTANOS ?-->
     <div class="modal fade" id="contactanos" tabindex="-1" aria-labelledby="contactanosLabel" aria-hidden="true">
@@ -320,16 +226,21 @@
                 <div class="modal-header">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    Para mayores informes dirigirse al Correo:
+                <a style="text-align: center; font-size: xx-large;">Contáctanos</a>
+                <div class="modal-body" style="text-align: center;">
+                    <a> Jefa del Departamento de la División de Estudios de Posgrado e Investigación:</a> <br>
+                    <a style="font-weight: bold;"> Ma. De Lourdes Balderas Castañeda.</a>
                 </div>
-                <div class="modal-header"></div>
-                <ul>
-                    <li> coord.msc@zacatecas.tecnm.mx </li>
-                    <li> posgrados@zacatecas.tecnm.mx </li>
-                </ul>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <div class="modal-header">
+                    <span>
+                        <a> Para mayor información contáctanos en:
+                            <ul> Tel. 492-924-7678 ext.1129 <br>
+                                WhatsApp: 492-122-5519 </ul>
+                            Correo electrónico:
+                            <ul> posgrados@itz.edu.mx </ul>
+
+                        </a>
+                    </span>
                 </div>
             </div>
         </div>
@@ -340,21 +251,9 @@
     <h1></h1>
     </div>
     </nav>
-
-
-
     <!-- SLIDER -->
-    <div class="container">
-        <!--TEXTO DE BIENVENIDA-->
-        <div style="text-align: center; font-size: xx-large; padding-top: 3%; padding-bottom: 3%;">
-            <span>
-                Maestrías que Oferta el Instituto Tecnológico del Estado de Zacatecas en el área de División de Estudios
-                de Posgrado e Investigación.
-            </span>
-
-        </div>
-        <h1></h1>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="padding-top: 1px;">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -382,13 +281,17 @@
                     aria-label="Slide 12"></button>
             </div>
             <!-- IMAGENES DEL CARRUCEL-->
+            <div style="text-align: center; justify-content: center;">
+                <a style="font-size: x-large;"> División de Estudios de Posgrados e Investigación</a>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/PosgradosImg1/1.jpg" class="d-block w-100" alt="...">
+                    <img src="img/Pruebas/1.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/PosgradosImg1/DOS.JPG" class="d-block w-100" alt="...">
+                    <img src="img/Pruebas/2.png" class="d-block w-100" alt="...">
                 </div>
+                <!--
                 <div class="carousel-item">
                     <img src="img/PosgradosImg1/TRES.JPG" class="d-block w-100" alt="...">
                 </div>
@@ -401,6 +304,7 @@
                 <div class="carousel-item">
                     <img src="img/PosgradosImg1/SEIS.jpg" class="d-block w-100" alt="...">
                 </div>
+                -->
                 <!-- CODIGO DE CARRUCEL-->
                 <!--
                 <div class="carousel-item">
@@ -437,29 +341,6 @@
                 <span class="visually-hidden"></span>
             </button>
         </div>
-        <!-- TEXTO-->
-        <div style="text-align: justify; font-size: x-large; padding-top: 5%;">
-            <a>
-                Estudia la Maestría en Ingeniería en Sistemas Computacionales, Administración y Arquitectura
-                que ofrecemos en el Instituto Tecnológico del Estado de Zacatecas en el área de División de Estudios de
-                Posgrado e Investigación.
-                Estas maestría con carácter profesionalizante han sido creadas con el propósito de formar profesionales
-                multidisciplinarios, capaces de aplicar conocimientos para la gestión de proyectos, entender y aplicar
-                las mejores
-                prácticas de las maestrías en Sistemas Computacionales, Administración y Arquitectura.
-            </a>
-        </div>
-        <!-- TEXTO 2-->
-        <div style="text-align: justify; font-size: x-large; padding-top: 2%;">
-            <a>
-                En este posgrado buscamos que seas capaz de
-                desempeñar diversos roles tales como: emprendedor de base tecnológica, líder de equipo de proyectos de
-                software,
-                jefe de procesos y calidad de empresas de desarrollo de software, consultor e instructor que transfiere
-                técnicas y
-                métodos avanzados de Ingeniería de Software.
-            </a>
-        </div>
     </div>
     <!-- SLIDER -->
     <h1></h1>
@@ -467,18 +348,24 @@
     <!---
         <div style="background: #ccc; height:90vh"></div>
     ->
-        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <!-- Option 1: Bootstrap Bundle with Popper
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+         -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+         <!--
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 
 </body>
