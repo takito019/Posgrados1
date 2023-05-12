@@ -1,9 +1,10 @@
-.dropdown-menu li{
+.dropdown-menu li {
     position: relative;
     color: black;
     background-color: rgb(27, 57, 106);
 }
-.dropdown-menu .submenu{
+
+.dropdown-menu .submenu {
     display: none;
     position: absolute;
     left: 100%;
@@ -11,40 +12,65 @@
     color: black;
     background-color: rgb(27, 57, 106);
 }
-.dropdown-menu>li:hover>.submenu{
+
+.dropdown-menu>li:hover>.submenu {
     display: block;
     color: black;
     background-color: rgb(27, 57, 106);
 }
-.dropdown-menu>li:hover{
+
+.dropdown-menu>li:hover {
     color: black;
     background-color: rgb(27, 57, 106);
-    
+
 }
-.dropdown-menu .submenu-left{
+
+.dropdown-menu .submenu-left {
     right: 100%;
     left: auto;
     color: black;
     background-color: rgb(27, 57, 106);
 }
-.dropdown-menu .submenu:hover{
+
+.dropdown-menu .submenu:hover {
     color: black;
     background-color: rgb(27, 57, 106);
 
 }
-.color_letra{
+
+.color_letra {
     color: white;
 }
 
-.color_letra:hover{
+.color_letra:hover {
     color: black;
 }
 
-.menu{
+.navbar2 {
     display: flex;
+    background-color: rgb(27, 57, 106);
 }
-@media only screen and(max-width: 390px){
-    .menu{
+
+@media only screen and (max-width: 390px) {
+    .navbar2 {
         display: none;
-    }    
+
+    }
+}
+
+
+.menuResponsive {
+    display: none;
+}
+
+@media only screen and (max-width: 390px) {
+    .menuResponsive {
+        display: flex;
+
+    }
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly
 }
