@@ -34,73 +34,79 @@
                 </a>
             </div>
         </div>
-
         <!--MENU RESPONSIVO-->
-        <nav class="menuResponsive navbar navbar-dark bg-dark ">
+        <nav class="menuResponsive navbar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+                <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                <div class="offcanvas offcanvas-end menuResponsive" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
 
                     <div class="offcanvas-body">
-
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Link</a>
-
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-
-
-                            </li>
-
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Dropdown
+                                <a class="nav-link" href="index.html" aria-current="page">
+                                    <img src="img/home.png" alt="Inicio" width="30" height="30">
                                 </a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
                             </li>
 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Conócenos</a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    style="background-color: rgb(27, 57, 106) ;">
+                                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Misión y Visión</a></li>
+                                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                        data-bs-target="#objetivos"> Objetivos</a></li>
+                                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                        data-bs-target="#contactanos"> Contáctanos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Oferta Educativa</a>
+                                <ul class="dropdown-menu dropdown-menu-dark" style="background-color: rgb(27, 57, 106);">
 
+                                    <li><a class="dropdown-item" href="#">Maestría en Sistemas Computacionales</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="MSistemas.html"> Información General</a></li>
+                                    <li><a class="dropdown-item" href="Estudiantes.html">Estudiantes</a></li>
+                                    <li><a class="dropdown-item" href="PlantaD.html">Núcleo Académico</a></li>
+                                    <li><a class="dropdown-item" href="ProductividadAcademica.html">Productividad Académica</a></li>
+                                    <li><hr class="dropdown-divider"></li>
 
-
-
-
+                                    <li><a class="dropdown-item" href="#"> Maestría en Administración </a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="MAdmi.html"> Información General</a></li>
+                                    <li><a class="dropdown-item" href="Estudiantes.html">Estudiantes</a></li>
+                                    <li><a class="dropdown-item" href="DocentesAdmi.html">Núcleo Académico</a></li>
+                                    <li><a class="dropdown-item" href="ProductividadAcademica.html">Productividad Académica</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    
+                                    <li><a class="dropdown-item" href="#"> Maestría en Arquitectura</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="MArqui.html"> Información General</a></li>
+                                    <li><a class="dropdown-item" href="Estudiantes.html">Estudiantes</a></li>
+                                    <li><a class="dropdown-item" href="DocentesArqui.html">Núcleo Académico</a></li>
+                                    <li><a class="dropdown-item" href="ProductividadAcademica.html">Productividad Académica</a></li>
+                                </ul>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Normativas.html">Normativas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Galeria.html">Galería</a>
+                        </li>
                         </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success" type="submit">Search</button>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -108,114 +114,105 @@
         <!--FIN DEL MENU RESPONSIVO-->
         <!--MENU-->
         <div class="navbar2 navbar navbar-expand-lg color_letra">
+            <div class=" collapse navbar-collapse" id="nav"
+                style=" height: 50px; padding-left: 30%; padding-right: 25%;">
+                <!--ICONO DE INICIO-->
+                <li class="navbar" style="background-color: rgb(27, 57, 106); padding-right: 3%;"></li>
+                <a class="nav-link" href="index.html" aria-current="page">
+                    <img src="img/home.png" alt="Inicio" width="30" height="30">
+                </a>
+                </li>
 
-            <div class="navbar2 container-fluid container">
-                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-                    <span class="navbar-toggler-icon"> </span>
-                </button> <!--MENU HAMBURGUESA-->
-
-                <div class=" collapse navbar-collapse" id="nav"
-                    style=" height: 50px; padding-left: 30%; padding-right: 25%;">
-                    <!--ICONO DE INICIO-->
-                    <li class="navbar" style="background-color: rgb(27, 57, 106); padding-right: 3%;"></li>
-                    <a class="nav-link" href="index.html" aria-current="page">
-                        <img src="img/home.png" alt="Inicio" width="30" height="30">
-                    </a>
-                    </li>
-
-                    <ul class="navbar-nav">
-                        <li class=" navbar nav-item dropdown">
-                            <a class="nav-link dropdown-toggle color_letra" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" style="font-size: larger;"> Conócenos</a>
-                            <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ; font-size:large;">
-                                <!-- Button trigger modal -->
+                <ul class="navbar-nav">
+                    <li class=" navbar nav-item dropdown">
+                        <a class="nav-link dropdown-toggle color_letra" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" style="font-size: larger;"> Conócenos</a>
+                        <ul class="dropdown-menu" style="background-color: rgb(27, 57, 106) ; font-size:large;">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn color_letra" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Misión
+                                y Visión
+                            </button>
+                            <li>
                                 <button type="button" class="btn color_letra" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">
-                                    Misión
-                                    y Visión
+                                    data-bs-target="#objetivos">
+                                    Objetivos
                                 </button>
-                                <li>
-                                    <button type="button" class="btn color_letra" data-bs-toggle="modal"
-                                        data-bs-target="#objetivos">
-                                        Objetivos
-                                    </button>
-                                </li>
-                                <li>
-                                    <button type="button" class="btn color_letra" data-bs-toggle="modal"
-                                        data-bs-target="#contactanos">
-                                        Contáctanos
-                                    </button>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
-                        <li class=" navbar nav-item dropdown " style="padding-right: 5%; ">
-                            <a href="#" class="nav-link dropdown-toggle color_letra color_letra"
-                                data-bs-toggle="dropdown" style="font-size: larger; ">
-                                Oferta Educativa</a>
-                            <ul class="dropdown-menu " style="background-color: rgb(27, 57, 106) ;">
-                                <!--SUBMENU ISC-->
-                                <li><a href="#" class="dropdown-item color_letra">Maestría en Sistemas Computacionales
-                                        &raquo;</a>
-                                    <ul class=" dropdown-menu submenu" style="background-color: rgb(27, 57, 106);">
-                                        <li><a href="MSistemas.html" class="dropdown-item color_letra">Información
-                                                General</a>
-                                        </li>
-                                        <li><a href="Estudiantes.html" class="dropdown-item color_letra">Estudiantes</a>
-                                        <li><a href="PlantaD.html" class="dropdown-item color_letra">Núcleo
-                                                Académico</a>
-                                        <li><a href="ProductividadAcademica.html"
-                                                class="dropdown-item color_letra">Productividad Académica</a></li>
-                                    </ul>
-                                </li>
+                            </li>
+                            <li>
+                                <button type="button" class="btn color_letra" data-bs-toggle="modal"
+                                    data-bs-target="#contactanos">
+                                    Contáctanos
+                                </button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class=" navbar nav-item dropdown " style="padding-right: 5%; ">
+                        <a href="#" class="nav-link dropdown-toggle color_letra color_letra" data-bs-toggle="dropdown"
+                            style="font-size: larger; ">
+                            Oferta Educativa</a>
+                        <ul class="dropdown-menu " style="background-color: rgb(27, 57, 106) ;">
+                            <!--SUBMENU ISC-->
+                            <li><a href="#" class="dropdown-item color_letra">Maestría en Sistemas Computacionales
+                                    &raquo;</a>
+                                <ul class=" dropdown-menu submenu" style="background-color: rgb(27, 57, 106);">
+                                    <li><a href="MSistemas.html" class="dropdown-item color_letra">Información
+                                            General</a>
+                                    </li>
+                                    <li><a href="Estudiantes.html" class="dropdown-item color_letra">Estudiantes</a>
+                                    <li><a href="PlantaD.html" class="dropdown-item color_letra">Núcleo
+                                            Académico</a>
+                                    <li><a href="ProductividadAcademica.html"
+                                            class="dropdown-item color_letra">Productividad Académica</a></li>
+                                </ul>
+                            </li>
 
-                                <!--SUBMENU ADMINISTRACIÓN-->
-                                <li><a href="#" class="dropdown-item color_letra">Maestría en Administración &raquo;</a>
-                                    <ul class=" dropdown-menu submenu" style="background-color: rgb(27, 57, 106);">
-                                        <li><a href="MAdmi.html" class="dropdown-item color_letra">Información
-                                                General</a>
-                                        </li>
-                                        <li><a href="Estudiantes.html" class="dropdown-item color_letra">Estudiantes</a>
-                                        <li><a href="DocentesAdmi.html" class="dropdown-item color_letra">Núcleo
-                                                Académico</a>
-                                        <li><a href="ProductividadAcademica.html"
-                                                class="dropdown-item color_letra">Productividad Académica</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                            <!--SUBMENU ADMINISTRACIÓN-->
+                            <li><a href="#" class="dropdown-item color_letra">Maestría en Administración &raquo;</a>
+                                <ul class=" dropdown-menu submenu" style="background-color: rgb(27, 57, 106);">
+                                    <li><a href="MAdmi.html" class="dropdown-item color_letra">Información
+                                            General</a>
+                                    </li>
+                                    <li><a href="Estudiantes.html" class="dropdown-item color_letra">Estudiantes</a>
+                                    <li><a href="DocentesAdmi.html" class="dropdown-item color_letra">Núcleo
+                                            Académico</a>
+                                    <li><a href="ProductividadAcademica.html"
+                                            class="dropdown-item color_letra">Productividad Académica</a>
+                                    </li>
+                                </ul>
+                            </li>
 
-                                <!--SUBMENU ARQUITECTURA-->
-                                <li><a href="#" class="dropdown-item color_letra">Maestría en Arquitectura &raquo;</a>
-                                    <ul class=" dropdown-menu submenu" style="background-color: rgb(27, 57, 106);">
-                                        <li><a href="MArqui.html" class="dropdown-item color_letra">Información
-                                                General</a>
-                                        </li>
-                                        <li><a href="Estudiantes.html" class="dropdown-item color_letra">Estudiantes</a>
-                                        <li><a href="DocentesArqui.html" class="dropdown-item color_letra">Núcleo
-                                                Académico</a>
-                                        <li><a href="ProductividadAcademica.html"
-                                                class="dropdown-item color_letra">Productividad Académica</a>
-                                        </li>
-                                    </ul>
+                            <!--SUBMENU ARQUITECTURA-->
+                            <li><a href="#" class="dropdown-item color_letra">Maestría en Arquitectura &raquo;</a>
+                                <ul class=" dropdown-menu submenu" style="background-color: rgb(27, 57, 106);">
+                                    <li><a href="MArqui.html" class="dropdown-item color_letra">Información
+                                            General</a>
+                                    </li>
+                                    <li><a href="Estudiantes.html" class="dropdown-item color_letra">Estudiantes</a>
+                                    <li><a href="DocentesArqui.html" class="dropdown-item color_letra">Núcleo
+                                            Académico</a>
+                                    <li><a href="ProductividadAcademica.html"
+                                            class="dropdown-item color_letra">Productividad Académica</a>
+                                    </li>
+                                </ul>
 
-                                </li>
+                            </li>
 
-                            </ul>
-                        </li>
-                        <li class=" navbar nav-item" style="padding-right: 5%;"><a href="Normativas.html"
-                                class="nav-link color_letra" style="font-size: larger; ">Normativas</a></li>
-                        <li class="navbar nav-item"><a href="Galeria.html" class="nav-link color_letra"
-                                style="font-size: larger;">Galería</a>
-                        </li>
-                    </ul>
-                </div>
-
+                        </ul>
+                    </li>
+                    <li class=" navbar nav-item" style="padding-right: 5%;"><a href="Normativas.html"
+                            class="nav-link color_letra" style="font-size: larger; ">Normativas</a></li>
+                    <li class="navbar nav-item"><a href="Galeria.html" class="nav-link color_letra"
+                            style="font-size: larger;">Galería</a>
+                    </li>
+                </ul>
             </div>
 
+        </div>
         </div> <!--FIN DEL MENU-->
-
-
     </section>
 
 
@@ -314,9 +311,9 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                    <a style="text-align: center; font-size: xx-large;">Contáctanos</a>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <a style="text-align: center; font-size: xx-large;">Contáctanos</a>
                 <div class="modal-body" style="text-align: center;">
                     <a> Jefa del Departamento de la División de Estudios de Posgrado e Investigación:</a> <br>
                     <a style="font-weight: bold;"> Ma. De Lourdes Balderas Castañeda.</a>
@@ -422,12 +419,12 @@
                 -->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
+                data-bs-slide="prev" style="align-items: center;">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden"></span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
+                data-bs-slide="next"style="align-items: center;">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden"></span>
             </button>
