@@ -51,7 +51,7 @@
     background-color: rgb(27, 57, 106);
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 425px) {
     .navbar2 {
         display: none;
 
@@ -63,7 +63,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 425px) {
     .menuResponsive {
         display: flex;
 
