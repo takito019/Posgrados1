@@ -62,12 +62,14 @@
 .menuResponsive {
     display: none;
     background-color: rgb(27, 57, 106);
+    color: white;
 }
 
 @media only screen and (max-width: 425px) {
     .menuResponsive {
         display: flex;
         background-color: rgb(27, 57, 106);
+        color: white;
 
     }
 }
